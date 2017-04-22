@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="fonts/glyphicons/css/glyphicons.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/shop_cart.css">
+</head>
+<body>
+	<div id="header">
+		<div id="top-nav">
+			<div class="wrapper">
+				<div id="search-box">
+					<span class="glyphicon glyphicon-search"></span>
+				</div>
+				<div id="top-menu">
+					<ul>
+						<li class="follow-us">关注我们</li>
+						<li class="share"><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+						<li class="share"><a href="#"><span class="glyphicon glyphicon-heart"></span></a></li>
+						<li class="share"><a href="#"><span class="glyphicon glyphicon-music"></span></a></li>
+						<li class="share"><a href="#"><span class="glyphicon glyphicon-glass"></span></a></li>
+						<li class="btn login">
+							<a href="#">
+								<span class="glyphicon glyphicon-lock"></span>
+								登录
+							</a>
+						</li> 
+						<li class="btn register">
+							<a href="#">
+								<span class="glyphicon glyphicon-user"></span> 
+								注册
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="wrapper">
+				<h1 class="logo">网上商城</h1>
+				<ul class="nav-menu">
+					<li class="selected"><a href="#">首页</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li>
+						<a href="#">商城 <span class="arrow"></span></a>
+						<ul class="sub-menu">
+							<li><a href="#">商品类别</a></li>
+							<li><a href="#">商品详情</a></li>
+							<li><a href="#">购物车</a></li>
+						</ul>
+					</li>
+					<li><a href="#">博客 <span class="arrow"></span></a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="content" class="wrapper">
+		<div id="heading">
+			<h3 class="title"><span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart</h3>
+			<div class="action">
+				<span class="a-sel">With selected:</span>
+				<div id="select">
+					<p class="s-title">Action<span class="tri"></span></p>
+					<ul class="s-sel">
+						<li>Action</li>
+						<li>Action</li>
+						<li>Action</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<table id="tab">
+			<tr>
+				<th class="fir"><input type="checkbox"></th>
+				<th class="sec">No.</th>
+				<th class="thi"></th>
+				<th class="for">Qty</th>
+				<th class="fif">Price</th>
+				<th class="six">VAT</th>
+				<th class="sev">TAX incl.</th>
+			</tr>
+			<tr class="tab-tr">
+				<td class="fir" style="line-height: 128px;"><input type="checkbox" name="choose"></td>
+				<td class="sec" style="line-height: 128px;">1</td>
+				<td class="thi">
+					<div id="media">
+						<img src="img/1.jpg">
+						<div id="media-body">
+							<h3>Product name goes here</h3>
+							<span class="pro">Product Category</span>
+							<p>
+								<span class="siz">Size:</span>
+								<span class="text" style="color: #fff;background: #999;padding: 2px 4px;"><br>3-4 Years</span>
+							</p>
+							<p>
+								<span class="siz">Color:</span>
+								<span class="text" style="color: #fff;background: #999;padding: 2px 4px;"><br>Blue Navy</span>
+							</p>
+						</div>
+					</div>
+				</td>
+				<td class="for" style="line-height: 128px;"><input type="text" value="1"></td>
+				<td class="fif" style="line-height: 128px;">$1,000.00</td>
+				<td class="six" style="line-height: 128px;">$119.00</td>
+				<td class="sev" style="line-height: 128px;">$1,119.00</td>
+			</tr>
+			<tr class="tab-tr tab-tr2">
+				<td class="fir" style="line-height: 128px;"><input type="checkbox" name="choose"></td>
+				<td class="sec" style="line-height: 128px;">1</td>
+				<td class="thi">
+					<div id="media">
+						<img src="img/2.jpg">
+						<div id="media-body">
+							<h3>Product name goes here</h3>
+							<span class="pro">Product Category</span>
+							<p>
+								<span class="siz">Size:</span>
+								<span class="text" style="color: #fff;background: #999;padding: 2px 4px;"><br>3-4 Years</span>
+							</p>
+							<p>
+								<span class="siz">Color:</span>
+								<span class="text" style="color: #fff;background: #999;padding: 2px 4px;"><br>Blue Navy</span>
+							</p>
+						</div>
+					</div>
+				</td>
+				<td class="for" style="line-height: 128px;"><input type="text" value="1"></td>
+				<td class="fif" style="line-height: 128px;">$1,000.00</td>
+				<td class="six" style="line-height: 128px;">$119.00</td>
+				<td class="sev" style="line-height: 128px;">$1,119.00</td>
+			</tr>
+			<tr style="border-bottom: 1px solid rgb(239, 239, 239);" class="tab-tr">
+				<td class="fir" style="line-height: 128px;"><input type="checkbox" name="choose"></td>
+				<td class="sec" style="line-height: 128px;">1</td>
+				<td class="thi">
+					<div id="media">
+						<img src="img/3.jpg">
+						<div id="media-body">
+							<h3>Product name goes here</h3>
+							<span class="pro">Product Category</span>
+							<p>
+								<span class="siz">Size:</span>
+								<span class="text" style="color: #fff;background: #999;padding: 2px 4px;"><br>3-4 Years</span>
+							</p>
+							<p>
+								<span class="siz">Color:</span>
+								<span class="text" style="color: #fff;background: #999;padding: 2px 4px;"><br>Blue Navy</span>
+							</p>
+						</div>
+					</div>
+				</td>
+				<td class="for" style="line-height: 128px;"><input type="text" value="1"></td>
+				<td class="fif" style="line-height: 128px;">$1,000.00</td>
+				<td class="six" style="line-height: 128px;">$119.00</td>
+				<td class="sev" style="line-height: 128px;">$1,119.00</td>
+			</tr>
+		</table>
+		<div id="pay">
+			<div id="discount">
+				<span>Discount Code:</span>
+				<input type="text" value="723-WTX31">
+				<a href="#">Apply code</a>
+			</div>
+			<table id="pay-tab">
+				<tr>
+					<td>Subtotal:</td>
+					<td style="width: 104px;"><strong>$1,000.00</strong></td>
+				</tr>
+				<tr>
+					<td>Delivery:</td>
+					<td style="width: 104px;"><strong>$5.00</strong></td>
+				</tr>
+				<tr>
+					<td>VAT:</td>
+					<td style="width: 104px;"><strong>$119.00</strong></td>
+				</tr>
+			</table>
+			<div id="total">
+				<span class="tot">Total: $1,195.95</span>
+				<a href="#">
+					<span class="glyphicon glyphicon-star"></span>
+					Proceed to Payment
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="wrapper">
+			<div class="quick-links">
+				<h3>QUICK LINKS</h3>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="about">
+				<h3>ABOUT</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+			<div class="blog">
+				<h3>Our blog</h3>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="contact" style="margin-right: 0; float: right;">
+				<h3>Contact</h3>
+				<ul>
+					<li><span class="glyphicon glyphicon-phone"></span> 01 230 1958</li>
+					<li><span class="glyphicon glyphicon-envelope"></span> contact@mosaicpro.biz</li>
+				</ul>
+				<h3 style="margin-top: 20px;">SOCIAL</h3>
+				<ul class="social">
+					<li class="selected">
+						<a href="#">
+							<span class="glyphicon glyphicon-heart"></span>
+						</a>
+					</li>
+					<li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-music"></span></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-glass"></span></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-phone"></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

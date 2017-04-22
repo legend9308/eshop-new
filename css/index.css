@@ -1,0 +1,263 @@
+/*banner 开始*/
+#banner{
+	height: 356px;
+	background: #1f2123;
+	padding-top: 88px;
+}
+#banner .banner-content{
+	width: 420px;
+	height: 280px;
+	position: absolute;
+	right: 0;
+	/*定位元素的垂直居中 水平也同理 开始*/
+	top: 50%;
+	margin-top: -140px;
+	/*定位元素的垂直居中 水平也同理 结束*/
+	text-align: center; /*只对文本和行级元素有效*/
+}
+#banner .banner-content h1{
+	color: #fff;
+	height: 46px;
+	line-height: 46px;
+	font-size: 27pt;
+}
+#banner .banner-content p{
+	color: #fff;
+	line-height: 25px;
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#banner .banner-content a{
+	display: inline-block;
+	color: #fff;
+	padding: 10px 10px 10px 10px;
+}
+#banner .banner-content .check-out{
+	background: #e5412d;
+	margin-right: 50px;	
+}
+#banner .banner-content .buy-now{
+	background: #e7e7e7;
+	color: #333333;
+}
+/*banner 结束*/
+/*awesome 开始*/
+#awesome{
+	height: 100px;
+	background: #f4f4f4;
+	border-bottom: 1px solid #efefef;
+	text-align: center;
+	line-height: 100px;
+}
+#text-primary{
+	font-size: 26px;
+	color: #e5412d;
+	font-weight: bold;
+}
+#text-features{
+	font-size: 26px;
+	color: #4d4d4d;
+}
+#hidden-phone{
+	font-size: 50%;
+	font-style: italic;
+	color: #ccc;
+}
+/*awesome 结束*/
+/*content 开始*/
+#slogan{
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+	margin: 15px auto;
+	padding: 15px;
+	color: #7c7c7c;
+}
+#features{
+	overflow: hidden;
+}
+#features li{
+	width: 197px;
+	height: 225px;
+	padding: 15px;
+	margin-right: 15px;
+	border: 1px solid #efefef;
+	float: left;
+	text-align: center;
+}
+#features li:last-child{ /*该选择器要考虑兼容性*/
+	margin-right: 0;
+	width: 196px;
+	float: right;	
+}
+#features .glyphicon{
+	font-size: 70px;
+	color: #e2e2e2;
+}
+#features h3{
+	font-family: 'Roboto Slab', sans-serif; /*空格、中文等特殊字符要加引号*/
+	font-size: 17.5px;
+	margin: 10px 0 10px;
+	font-weight: 400;
+	color: #4d4d4d;
+}
+#features p{
+	color: #7c7c7c;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+#features a{
+	color: #e5412d;
+}
+#follow-us{
+	height: 137px;
+	border: 1px solid #efefef;
+	padding: 15px;
+	margin-top: 20px;
+	background: #f4f4f4;
+	text-align: center;
+}
+#follow-us h3{
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 30px;
+	color: #7c7c7c;
+	margin-bottom: 20px;
+}
+#follow-list li{
+	display: inline-block;
+	margin-right: 20px;
+	line-height: 20px;
+}
+#follow-list .glyphicon{
+	font-size: 50px;
+}
+#follow-list a{
+	font-size: 12px;
+	color: #444444;
+}
+#follow-list .selected a{	/*继承的优先级低于自己设置的*/
+	color: #e5412d;
+}
+#follow-list .selected .glyphicon{
+	color: #e5412d;
+}
+/*#testimon{
+	font-size: 24.5px;
+	line-height: 30px;
+	color: #7c7c7c;
+	font-family: 'Roboto Slab', sans-serif;
+    margin: 10px 0 5px;
+    font-weight: 400;
+}
+#testimon .glyphicon{
+	color: #1d1d1b;
+}
+#chat{
+	padding-top: 15px;
+	overflow: hidden;
+}
+#chat div{
+	width: 440px;
+	border: 1px solid #efefef;
+	padding: 15px;
+	margin-bottom: 15px;
+	float: left;
+}
+#chat div span{
+	color: #e2e2e2;
+    font-size: 50px;
+}
+#chat div p{
+	width: 365px;
+	float: right;
+	color: #7c7c7c;
+}
+#chat div .chat-p{
+	margin-bottom: 10px;
+}
+#chat div a{
+	font-weight: bold;
+	color: #e5412d;
+}
+#chat div:last-child{
+	float: right;
+}
+#widget{
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+	background: #f4f4f4;
+}
+#widget .widget-text{
+	width: 614px;
+	text-align: center;
+}
+#widget .widget-text h2{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 26px;
+	font-weight: 400;
+    color: #4d4d4d;
+}
+#widget .widget-text strong{
+	color: #e5412d;
+}
+#widget .widget-text p{
+	color: #7c7c7c;
+}
+#widget a{
+	display: inline-block;
+	width: 260px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	background: #e5412d;
+	padding:5px;
+	padding-left: 40px;
+	color: #ffffff;
+	font-weight: 600;
+}
+#widget .glyphicon{
+	font-size: 24px;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	margin-top: -12px;
+	color: rgba(255, 255, 255, 0.4);
+}*/
+#testimonials{
+	font-size: 24px;
+	color: #7c7c7c;
+	margin: 15px 0;
+}
+#testimonials .glyphicon{
+	font-size: 27px;
+}
+#chat-list{
+	overflow: hidden;
+}
+#chat-list .chat-item{
+	border: 1px solid #efefef;
+	padding: 15px;
+	width: 440px;
+	height: 73px;
+	margin-bottom: 15px;
+}
+#chat-list .chat-item:nth-child(2n+1){
+	float: left;
+}
+#chat-list .chat-item:nth-child(2n){
+	float: right;
+}
+#chat-list .glyphicon{
+	font-size: 32px;
+	float: left;
+}
+#chat-list p{
+	margin-left: 70px;
+	margin-bottom: 15px;
+}
+#chat-list a{
+	color: #e5412d;
+}
+/*content 结束*/

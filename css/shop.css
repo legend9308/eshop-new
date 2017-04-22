@@ -1,0 +1,293 @@
+/*content 开始*/
+#content{
+	padding-top: 88px;
+}
+#content .title{
+	padding: 15px 0;
+	line-height: 30px;
+	color: #7c7c7c;
+	font-size: 24px;
+	font-weight: 400;
+	font-family: 'Roboto Slab', sans-serif;
+}
+.carousel{
+	clear: both;
+	width: 960px;
+	position: relative;
+}
+.carousel-imgs{
+	width: 2880px;
+	position: absolute;
+	transition: left 1s ease;
+	left: 0;
+}
+
+.carousel-item{
+	width: 960px;
+	float: left;
+}
+.carousel-btns{
+	margin-top: 224px;
+}
+.carousel-txt{
+	float: left;
+	width: 361px;
+	height: 194px;
+	padding: 15px;
+	text-align: center;
+	background: #f4f4f4;
+}
+.carousel-txt h3{
+	font-size: 26px;
+	color: #4d4d4d;
+	font-weight: 400;
+}
+.carousel-txt p{
+	line-height: 20px;
+	color: #7c7c7c;
+}
+.carousel-txt h5{
+	font-weight: bold;
+	color: #7c7c7c;
+	height: 48px;
+}
+.carousel-txt a{
+	display: block;
+	background: #424242;
+	color: #ffffff;
+	font-size: 17.5px;
+	height: 44px;
+	line-height: 44px;
+}
+.carousel-imgs img.carousel-img{  /*找imgs下的一个class为img的img*/
+	float: right;
+	width: 554px;
+}
+
+/*左侧边栏开始*/
+#widget{
+	overflow: hidden;
+}
+.sidebar-box{
+	width: 230px;
+	float: left;
+}
+.list{
+	margin-bottom: 15px;
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+}
+.list li{
+	height: 39px;
+	line-height: 39px;
+	border-bottom: : 1px solid #efefef;
+	padding: 0 10px;
+}
+.list li a{
+	color: #000;
+	font-weight: bold;
+}
+.list li span{
+	float: right;
+	background: #999;
+	line-height: 18px;
+	margin-top: 10px;
+	padding: 0 10px;
+	color: #fff;
+	border-radius: 10px;
+}
+#question{
+	background: #424242;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+#question .glyphicon-question-sign{
+	font-size: 70px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+#question h3{
+	font-size: 17px;
+	font-weight: 400;
+	color: #fff;
+}
+#question p{
+	line-height: normal;
+	color: #fff;
+	margin-bottom: 10px;
+}
+#question a{
+	background: #e5412d;
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+}
+#labels{
+	background: #f4f4f4;
+	border: 1px solid #efefef;
+	padding: 15px;
+	text-align: center;
+}
+#labels span{
+	padding: 2px 4px;
+	background: #999;
+	color: #fff;
+	border-radius: 2px;
+	display: inline-block; /*行级元素设置margin上下不好使 只能设置左右 浮动或者定位或者in-block就可以了*/
+	margin-top: 2px;
+}
+/*左侧边栏结束*/
+.waterfalls{
+	width: 716px;
+	float: right; 
+}
+.waterfalls li{
+	margin-bottom: 15px;
+	background: #f4f4f4;
+	position: relative;
+	overflow: hidden;
+}
+.falls-item{
+	float: left;
+	width: 222px;
+	margin-right: 15px;
+}
+.falls-item:first-child{
+	width: 237px;
+}
+.falls-item:last-child{
+	margin-right: 0;
+}
+.p-price{
+	position: absolute;
+	right: -30px;
+	top: 13px;
+	color: #fff;
+	background: #609450;
+	width: 120px;
+	height: 34px;
+	line-height: 34px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+}
+.p-img img{
+	width: 100%
+}
+.p-info{
+	padding: 15px;
+	overflow: hidden;
+}
+.p-info h3{
+	color: #7c7c7c;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.p-info p{
+	color: #7c7c7c;
+	line-height: normal;
+	margin-bottom: 5px;
+}
+.p-info .collect{
+	background: #424242;
+	color: #fff;
+	width: 39px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+	position: relative;
+}
+.p-info .collect:hover .col-tip{
+	display: block;
+}
+.col-tip{
+	background: #e86555;
+	color: #fff;
+	padding: 8px;
+	line-height: 20px;
+	position: absolute;
+	top:-40px;
+	left: 0;
+	display: none;
+}
+.col-tip:after{
+	content: '';
+	border: 5px solid transparent;
+	border-top: 5px solid #e86555;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -9px;
+	left: 50%;
+	margin-left: -5px;
+}
+.p-info .add-cart{
+	background: #609450;
+	color: #fff;
+	font-size: 14px;
+	padding: 6.5px 12px;
+	float: left;
+}
+.p-info .view{
+	background: #e7e7e7;
+	color: #000;
+	width: 39px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	float: right;
+}
+/*#row-fluid{
+	height: 2044px;
+}
+#row-fluid > div{
+	float: left;
+}
+#fluid1{
+	width: 229px;
+	height: 724px;
+}
+#fluid2{
+	width: 239px;
+	height: 2044px;
+}
+#fluid3{
+	width: 239px;
+	height: 1991px;
+}
+#fluid4{
+	width: 239px;
+	height: 2034px;
+}
+#row-fluid li{
+	padding: 0 10px;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid #efefef;
+    background: #f4f4f4;
+    text-align: left;
+    position: relative;
+}
+#row-fluid a{
+	color: #000000;
+    font-weight: bold;
+}
+#row-fluid span{
+	position: absolute;
+    right: 8px;
+    top: 10px;
+    display: inline-block;
+    padding: 2px 13px;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ffffff;
+    background-color: #999999;
+}*/
+/*content 结束

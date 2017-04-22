@@ -1,0 +1,184 @@
+/*content 开始*/
+#content{
+	padding: 15px 0;
+	vertical-align: center;
+}
+#about-us{
+	padding-top: 88px;
+	margin-bottom: 15px;
+}
+#about-us .glyphicon{
+	font-size: 27px;
+	color: #575655;
+	vertical-align: middle;
+}
+#about-us h3{   /*vertical-align是给子元素加的并且是左右的元素对齐 给父元素加无效*/
+	display: inline-block;
+	font-size: 24.5px;
+	color: #7c7c7c;
+	vertical-align: middle;
+}
+#about-us .text{
+	font-size: 12px;
+	color: #afafaf;
+	font-style: italic;
+	vertical-align: middle;
+}
+#widget-body{
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #efefef;
+	background: #f4f4f4;
+	text-align: center;
+	font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    color: #7c7c7c;
+}
+#thumbnails{
+	overflow: hidden;
+}
+#thumbnails li{
+	width: 300px;
+	height: 343px;
+	padding: 4px;
+	margin-right: 14px;
+	border: 1px solid #efefef;
+	float: left;
+}
+#thumbnails .holder{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 9px;
+	line-height: 200px;
+	background-color: rgb(238, 238, 238);
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(170, 170, 170);
+	text-align: center;
+}
+#thumbnails h4{
+	font-size: 17.5px;
+	line-height: 20px;
+	margin: 0 9px 5px;
+}
+#thumbnails p{
+	margin:0 9px 10px;
+	color: #7c7c7c;
+	line-height: normal;
+}
+#thumbnails .selected .glyphicon{
+	margin-left: 9px;
+	color: #e5412d;
+}
+#thumbnails a .glyphicon:hover{
+	color: #797979;
+}
+#thumbnails .glyphicon{
+	font-size: 20px;
+	color: #64625f;
+}
+.separator{
+	height: 2px;
+	background: #f4f4f4;
+	margin: 20px 0;
+	position: relative;	
+	text-align: center;
+}
+.separator .glyphicon{
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+	padding: 0 10px;
+	background: #fff;
+}
+
+#row-fluid{
+	overflow: hidden;
+}
+#row-fluid .widget-body{
+	width: 440px;
+	height: 220px;
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 1px solid rgb(239, 239, 239);
+	float: left;
+}
+#row-fluid .widget-body div{
+	margin-top: 15px;
+	padding-left: 15px;
+	overflow: hidden;
+}
+#row-fluid .glyphicon{
+	float: left;
+	font-size: 50px;
+	color: #e2e2e2;
+}
+#row-fluid h4{
+	padding-left: 75px;
+	margin: 0 0 5px;
+	font-size: 17.5px;
+	font-weight: 400;
+    color: #4d4d4d;
+}
+#row-fluid p{
+	padding-left:75px; 
+	line-height: normal;
+	width: 350px;
+	color: #7c7c7c;
+}
+#get-item{
+	height: 256px;
+	padding-top: 15px;
+}
+#get-item .other{
+	width: 473px;
+	height: 223px;
+	float: right;
+}
+#get-item h5{
+	margin: 0 0 5px;
+    font-weight: 400;
+    color: #4d4d4d;
+    font-size: 14px;
+    line-height: 20px;
+}
+#get-item .news,.lorem{
+	padding: 15px;
+	background: #f4f4f4;
+}
+#get-item .news .glyphicon{
+	color: #e2e2e2;
+    font-size: 32px;
+    float: left;
+    margin-right: 10px;
+}
+#get-item .news p{
+	margin: 0 0 10px;
+	color: #7c7c7c;
+}
+#get-item .twitter{
+	margin: 15px 0 10px;
+}
+#get-item .twitter .glyphicon{
+	font-size: 13px;
+	color: #7c7c7c;
+	float: left;
+	margin-right: 10px;
+}
+#get-item .twitter h4{
+	color: #7c7c7c;
+    font-size: 14px;
+}
+#get-item .lorem{
+	color: #7c7c7c;
+}
+#get-item .lorem span{
+	padding: 2px 4px;
+	background-color: #333333;
+	color: #ffffff;
+	font-size: 11.844px;
+    font-weight: bold;
+}
+/*content 结束*/

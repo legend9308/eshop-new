@@ -1,0 +1,273 @@
+#content{
+	padding-top: 88px;
+	overflow: hidden;
+}
+#title{
+	font-size: 24px;
+	color: #7c7c7c;
+	margin: 15px 0;
+}
+#img-box{
+	width: 310px;
+	float: left;
+}
+#big-img{
+	padding: 3px;
+	border: 1px solid #efefef;
+}
+#big-img img{
+	width: 100%;
+	display: block; /*图片在元素里面默认下面有个空隙 设置block可以解决*/
+}
+.ownseparator{
+	text-align: center;
+	position: relative;
+	margin: 15px 0;
+}
+.ownseparator:before{
+	content: '';
+	height: 2px;
+	width: 100%;
+	background: #f4f4f4;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -1px;
+}
+.ownseparator span{
+	color: #7c7c7c;
+	font-size: 37px;
+	background: #fff;
+	padding: 0 10px;
+	line-height: 28px;
+}
+.small-img li{
+	width: 62px;
+	padding: 5px;
+	border: 1px solid #f4f4f4;
+	float: left;
+	margin-right: 3px;
+}
+.small-img li:last-child{
+	margin-right: 0;
+	float: right;
+}
+.small-img li img{
+	width: 100%;
+	display: block;
+}
+#info-box{
+	width: 635px;
+	float: right;
+	overflow: hidden;
+}
+.product{
+	width: 365px;
+	float: left;
+}
+.p-title{
+	color: #7c7c7c;
+	font-size: 14px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.p-description{
+	border: 1px solid #efefef;
+	background: #f4f4f4;
+	padding: 15px;
+	color: #7c7c7c;
+	margin-bottom: 20px;
+}
+.p-text{
+	border: 1px solid rgb(187, 187, 187);
+	padding: 15px;
+	color: #fff;
+	background: #bbb;
+}
+.price{
+	width: 228px;
+	float: right;
+	border: 1px solid #efefef;
+	padding: 15px;
+}
+.price h1{
+	font-size: 35px;
+	line-height: 40px;
+	color: #7c7c7c;
+}
+.price .incl{
+	color: #d7d7d7;
+	margin-bottom: 20px;
+}
+.price .select{
+	color: #7c7c7c;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.select-box{
+	position: relative;
+	background: #e8e8e8;
+}
+.select-box.selected{/*//两个class都有才生效*/
+	color: #fff;
+	box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.15) inset;
+}
+.sel-btn{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	position: relative;
+}
+.sel-btn p{
+	width: 186px;
+	overflow: hidden;
+}
+.sel-btn span{
+	border:4px solid transparent;
+	border-top: 4px solid #747474;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -2px;
+}
+.sel-menu{
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 5px 0;
+	display: none;
+	position: absolute;
+	top: 35px;
+	z-index: 1;
+}
+.sel-menu li{
+	line-height: 26px;
+	padding: 0 20px;
+	color: #333333;
+	width: 187px;
+}
+.sel-menu li:hover{
+	background: #0081c2;
+	color: #fff;
+}
+.price{
+	position: relative;
+	overflow: hidden;
+}
+.p-price{
+	position: absolute;
+	right: -30px;
+	top: 13px;
+	color: #fff;
+	background: #609450;
+	width: 120px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+	font-size: 15px;
+    font-weight: 600;
+}
+.price input{
+	width: 218px;
+	height: 30px;
+	padding: 0 5px;
+	color: #a7a7a7;
+	outline: none; /*点击没有边框*/
+}
+.price a{
+	width: 208px;
+	height: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid rgb(96, 148, 80);
+	background: rgb(96, 148, 80);
+	display: inline-block;
+	font-weight: 600;
+	font-size: 17.5px;
+	color: #fff;
+}
+.price a .glyphicon{
+	font-size: 17px;
+	color: #a2bc9b;
+}
+.price .share{
+	text-align: right;
+	margin: 15px 0;
+	color: #7c7c7c;
+}
+.price .share span{
+	vertical-align: middle;
+}
+.price .share span.glyphicon{
+	font-size: 24px;
+}
+#clear{
+	height: 15px;
+	clear:  both;
+}
+#widget-head li{
+	float: left;
+}
+.tab-box{
+}
+.tab-box ul{
+	height: 35px;
+	border: 1px solid #efefef;
+}
+.tab-box ul li{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	color: #7c7c7c;
+	background: #fff;
+	border-right: 1px solid #efefef;
+}
+.tab-box ul li.active{
+	color: #505050;
+	height: 36px;
+	background: #fff;
+}
+.content-box{
+	padding: 15px;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef; 
+	border-bottom: 1px solid #efefef;  
+	margin-bottom: 30px;
+}
+.content-box .active{
+	display: block;
+}
+.content-box .first{
+	font-size: 65px;
+	color: #eeeeee;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	float: right;
+}
+.content-box .a-title{
+	font-weight: bold;
+	font-size: 13px;
+    color: #7c7c7c;
+    line-height: 20px;
+}
+.content-box .icons{
+	line-height: 20px;
+	color: #e5412d;
+}
+.content-box .icons .glyphicon{
+	margin-right: 5px;
+}
+.content-box .txt{
+	color: #d7d7d7;
+}
+.content-box .a-p{
+	color: #7c7c7c;
+	line-height: 20px;
+}
+.content-box .del-txt{
+	display: none;
+	color: #7c7c7c;
+}
