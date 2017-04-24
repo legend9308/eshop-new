@@ -179,7 +179,7 @@
 #tab .tab-tr2{
 	background: #fafafa;
 }
-#tab .tab-tr:hover{
+#tab .tab-tr:hover,#tab .selected{
 	background: #dbdbdb;
 }
 #pay{

@@ -61,7 +61,7 @@ for (var i = 0; i < selLi.length; i++) {
 }
 
 document.body.onclick=function(e){
-	var target=e.target;  //取事件源 
+	var target=e.target||event.srcElement;  //取事件源 后者是ie的 前者不兼容ie
 	if(target!=selBtn&&target!=selP&&target!=oSpan){
 		selMenu.style.display='none';
 	}
