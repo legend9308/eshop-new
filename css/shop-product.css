@@ -271,3 +271,109 @@
 	display: none;
 	color: #7c7c7c;
 }
+/*html{
+	position: relative; 为了让弹层充满浏览器 而不是相对于当前窗口定位
+}*/
+/*弹层样式*/
+.dialog-box{
+	background: rgba(0,0,0,0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	display: none;
+}
+.content{
+	width: 423px;
+	height: 498px;
+	background: #fff;
+	position: absolute;
+	left: 50%;
+	top: -249px;
+	margin-left: -212px;
+	margin-top: -249px;
+}
+@keyframes show{
+	100%{
+		top:50%;
+	}
+}
+.dialog-title{
+	height: 30px;
+	line-height: 30px;
+	background: #f4f4f4;
+	border-bottom: 1px solid #efefef;
+	text-align: right;
+}
+.dialog-close{
+	margin-right: 8px;
+	cursor: pointer;
+}
+.dialog-body{
+	text-align: center;
+	height: 406px;
+}
+.dialog-body img{
+	width: 265px;
+	height: 395px;
+	margin: 10px 0;	
+	position: absolute;
+	left: 80px;
+	top: 25px;
+}
+.dialog-prev,.dialog-next{
+	width: 40px;
+	height: 40px;
+	background: rgba(0,0,0,0.4);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+}
+.dialog-prev{
+	left: 95px;
+}
+.dialog-next{
+	right: 95px;
+}
+.dialog-btns{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-top: 1px solid #efefef;
+}
+.dialog-btns span{
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	padding: 0 10px;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.prev-btn{
+	background: #e5412d;
+}
+.next-btn{
+	background: #5cc7dd;
+}
+.slide-btn{
+	background: #609450;
+}
+.dialog-btns .download-btn{
+	background: #f5f5f5;
+	color: #000;
+	border: 1px solid #cccccc;
+}
+@keyframes hide{
+	100%{
+		opacity: 0;
+	}
+}
