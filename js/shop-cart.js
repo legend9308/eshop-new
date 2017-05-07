@@ -36,3 +36,13 @@ $('.tbhead :checkbox').on('click',function(){
 		$('#tab tr:not(.tbhead)').find(':checkbox').prop('checked',false).end().removeClass('selected');
 	}
 })
+// var flag=true;
+// $('tbody tr').on('click',function(){
+// 	$(this).toggleClass('selected');
+// 	%(this).find(':checkbox').pro('checked',$(this).hasClass('selected'));
+// 	$('tbody tr').each(function(){
+// 		if(!$(this).hasClass('selected')){
+// 			flag=false;
+// 		}
+// 	})
+// });

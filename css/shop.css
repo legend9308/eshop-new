@@ -18,8 +18,8 @@
 .carousel-imgs{
 	width: 2880px;
 	position: absolute;
-	transition: left 1s ease;
-	left: 0;
+/*	transition: left 1s ease;
+*/	left: 0;
 }
 
 .carousel-item{
