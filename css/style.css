@@ -123,10 +123,10 @@ body{
 	padding: 0 10px;
 	position: relative;
 }
-#nav .nav-menu>li.menu-btn:hover .sub-menu{
+/*#nav .nav-menu>li.menu-btn:hover .sub-menu{
 	display: block;
 	animation: show 1s ease forwards;
-}
+}*/
 @keyframes show{
 	100%{
 		top: 56px;
